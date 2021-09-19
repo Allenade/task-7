@@ -1,0 +1,374 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-image: url(../image/hero-bg.jpg);
+    min-height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+}
+.header-text{
+   margin-top: 250px;
+   margin-left: 160px;
+}
+.header-text h4{
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.header-text h1{
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.header-rule {
+    margin-top: 30px;
+    min-height: 10px;
+    width: 40vw;
+    background-color: #fff;
+}
+
+.service{
+    background-color: rgb(242, 242, 242);
+   min-height: 50vh;
+   overflow: hidden;
+
+}
+.service-text{
+    margin-top: 100px;
+    text-align: center;
+}
+.service-text h1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1%;
+    font-size: 50px;
+}
+.service-text h5{
+  color: rgb(153,153,176);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.service-text button{
+    margin-top: 2%;
+    padding: 15px 42px;
+    background-color: rgba(209, 22, 30);
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.service-text p{
+    width: 45%;
+    margin-top: 2%;
+margin-left: 30%;
+line-height: 25px;
+font-size: 20px;
+color: rgb(17,17,17);
+font-family: 'Open Sans', sans-serif;
+}
+
+.help {
+    min-height: 90vh;
+    display: flex;
+  
+}
+.help-photo p{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.help-photo {
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.help-image{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.help-image img{
+    margin-top:50px;
+}
+.help-image h1{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.help-image p{
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(231,26,35);
+}
+.quality{
+    background-color: rgb(220,219,224);
+min-height: 30vh; 
+overflow: hidden;
+padding-left: 200px;  
+display: flex;
+}
+.quality img {
+    width: 500px;    
+}
+.quality-rule{
+    width: 85%;
+min-height: 20px;
+background-color: rgb(231,26,35);
+margin-top: 30px;
+}
+
+.quality-text{
+    margin-top: 130px;
+    margin-left: 130px;
+}
+.quality-text h1{
+    font-size: 72px;
+}
+.quality-text p{
+    margin-top: 30px;
+    font-size: 23px;
+    width: 75%;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.quality-text button {
+    padding: 15px 25px;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    background-color: rgb(231,26,35);
+}
+.painting {
+    min-height: 50vh;
+}
+.painting h2{
+    margin-left: 220px;
+    font-size: 60px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+}
+.icons {
+    display: flex;
+  margin-top: 45px;
+    
+}
+.icons-painting {
+margin-left: 250px;
+}
+.icons p{
+    width: 50%;
+}
+.About{
+    min-height: 70vh;
+    background-color: rgb(16,78,146);
+}
+.about-us {
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+.frg{
+    width: 302px;
+}
+.rg{
+    width: 260px;
+}
+.billi{
+    width: 302px;
+}
+.img-size{
+    width: 300px;
+}
+.about-img {
+    margin-top: 100px;
+    margin-left: 200px;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+.about-text{
+    margin-top: 200px;
+    margin-left: 280px;
+    width: 20%;
+}
+.about-text h2{
+    font-size: 20px;
+}
+.about-text h1{
+    font-size: 82px;
+}
+.get{
+    min-height: 50vh;
+    background-color: rgb(255,255,255);
+}
+.real {
+    text-align: center;
+}
+.real h1{
+    font-size: 35px;
+    width: 40%;
+    margin-left: 470px;
+    margin-top: 100px;
+}
+.real p{
+    font-size: 25px;
+    width: 30%;
+    margin-left: 550px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+.real button{
+    padding: 12px 25px;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+}
+.now {
+    background-color: rgb(231,26,35);
+    border: none;
+}
+.foot{
+    min-height: 30vh;
+    background-color: rgb(51,51,51);
+}
+.foot p{
+text-align: center;
+    color: #fff;
+   padding-top: 70px;
+   
+}
+/* mobile view */
+@media (max-width: 480px) {
+
+    body{
+      overflow-x: hidden;
+  }
+    header {
+        background-position: 81.49% 50%;
+        min-height: 90vh;
+ 
+    }
+    .header-text{
+        margin-left: 55px;
+        margin-top: 450px;
+    }
+    .header-text h4{
+        font-size: 36px;
+    }
+    .header-text h1{
+        font-size: 58px;
+    }
+    .service {
+        min-height: 60vh;
+    }
+    .service-text {
+        margin-top: 13%;
+    }
+    .service-text p{
+        width: 60%;
+     margin-left: 70px;
+    }
+    .service-text h1{
+        font-size: 50px;
+    }
+    .help{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .help-photo img {
+        width: 300%;
+        margin-left: -197px;
+        min-height: 200px;
+    }
+    .help-photo p{
+        width: 160%;
+        margin-left: -150px;
+    }
+    .help-image img{
+        width: 300%;
+        margin-left: 1px;
+    }
+    .help-image h1{
+        margin-left: 50px;
+        width: 160%;
+        font-size: 27px;
+    }
+    .help-image p{
+        font-size: 24px;
+        width: 160%;
+        margin-left: 50px;
+    }
+    .quality{
+        flex-direction: column;
+        padding-left: 0%;
+    }
+    .quality img{
+        width: 350px;
+        margin-left: 45px;
+    }
+    .quality-rule {
+      width: 80vw;
+      min-height: 1.5vh;
+    }
+    .quality-text{
+        margin-left: 30px;
+    }
+    .quality-text h1{
+        font-size: 60px;
+    }
+    .quality-text p{
+        font-size: 20px;
+        width: 80%;
+    }
+    .quality-text button{
+        margin-bottom: 30px;
+    }
+    .painting h2{
+        margin-left: 0%;
+        font-size: 40px;
+    }
+    .icons-painting {
+        margin-left: 0%;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .about-us {
+        flex-direction: column;
+    }
+    .about-img {
+        margin-left: 5%;
+    }
+    .about-text {
+        margin-left: 50px;
+        width: 30%;
+    }
+    .about-text h1{
+        font-size: 70px;
+    }
+   
+    .rg{
+        width: 302px;
+    }.real p{
+        margin-left: 110px;
+        width: 50%;
+    }
+    .real h1{
+        margin-left: 0;
+        width: 100%;
+        
+    }
+    .real button{
+        display: flex;
+        margin-left: 150px;
+        
+    }
+    .get{
+        margin-bottom: 30px;
+    }
+}
