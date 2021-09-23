@@ -1,4 +1,8 @@
-
+/* 600px
+768px
+900px
+1024px
+1200px */
 *{
     padding: 0%;
     margin: 0%;
@@ -23,9 +27,11 @@ header{
     font-weight: 100;
 }
 .header-text h1{
-    font-size: 100px;
+    font-size: 90px;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-display: bold;
 }
 .header-rule {
     margin-top: 30px;
@@ -33,10 +39,13 @@ header{
     width: 40vw;
     background-color: #fff;
 }
+.brush svg {
+    width: 20%;
+}
 
 .service{
     background-color: rgb(242, 242, 242);
-   min-height: 60vh;
+   min-height: 67vh;
    overflow: hidden;
 
 }
@@ -45,9 +54,10 @@ header{
     text-align: center;
 }
 .service-text h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 1%;
     font-size: 50px;
+    font-weight: 600;
 }
 .service-text h5{
   color: rgb(153,153,176);
@@ -82,7 +92,9 @@ font-family: 'Open Sans', sans-serif;
     width: 60%;
     margin-left: 70px;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
 }
 .help-photo {
     margin-top: 60px;
@@ -91,6 +103,7 @@ font-family: 'Open Sans', sans-serif;
 .help-image{
     margin-top: 100px;
     margin-right: 200px;
+
 }
 .help-image img{
     margin-top:50px;
@@ -98,12 +111,14 @@ font-family: 'Open Sans', sans-serif;
 .help-image h1{
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
 }
 .help-image p{
     margin-top: 30px;
     font-size: 30px;
     color: rgb(231,26,35);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
 }
 .quality{
     background-color: rgb(220,219,224);
@@ -117,7 +132,7 @@ display: flex;
 }
 .quality-rule{
     width: 85%;
-min-height: 20px;
+min-height: 10px;
 background-color: rgb(231,26,35);
 margin-top: 30px;
 }
@@ -128,6 +143,9 @@ margin-top: 30px;
 }
 .quality-text h1{
     font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
 }
 .quality-text p{
     margin-top: 30px;
@@ -135,6 +153,7 @@ margin-top: 30px;
     width: 75%;
     line-height: 30px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 .quality-text button {
     padding: 15px 25px;
@@ -152,6 +171,7 @@ margin-top: 30px;
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
 font-weight: 500;
+text-decoration: none solid rgb(17, 17, 17);
 }
 .icons {
     display: flex;
@@ -223,7 +243,7 @@ margin-left: 250px;
     margin-top: 40px;
 }
 .real button{
-    padding: 12px 25px;
+    
     margin-right: 20px;
     margin-top: 30px;
     
@@ -231,6 +251,10 @@ margin-left: 250px;
 .now {
     background-color: rgb(231,26,35);
     border: none;
+    padding: 12px 25px;
+}
+.call{
+    padding: 12px 25px;
 }
 .foot{
     min-height: 30vh;
@@ -242,6 +266,176 @@ text-align: center;
    padding-top: 70px;
    
 }
+/* @media (max-width: 1024px) {
+    header {
+        background-position: 105.49% 50%;
+        min-height: 90%;
+        padding-bottom: 20%;
+    }
+    .help{
+        flex-direction: column;
+    }
+    .help-photo {
+        margin-left: 25%;
+    }
+    .help-photo p{
+        margin-left: 15%;
+    }
+  
+} */
+@media (max-width: 768px) {
+    header {
+        background-position: 105.49% 50%;
+        min-height: 90%;
+        padding-bottom: 20%;
+    }
+    .header-text {
+        margin-left: 10%;
+    }
+.header-text h4{
+    font-size: 250%;
+}
+.header-text h1{
+font-size: 400%;
+}
+.header-rule {
+    width: 55%;
+}
+    .help {
+        flex-direction: column;
+    }
+    .help-photo img{
+        width: 90%;
+       margin-left: -15%;
+    }
+    .help-photo p{
+        width: 70%;
+        margin-left: -5%;
+    }
+
+    .help-image h1{
+        font-size: 27px;
+        margin-left: 35%;
+        width: 70%;
+    }
+    .help-image p{
+        font-size: 26px;
+        margin-left: 39%;
+    }
+    .help-image img{
+        width: 90%;
+        margin-left: 26%;
+    }
+    .quality{
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+    .quality img{
+        width: 70%;
+        margin-left: -3%;
+    }
+    .quality-text{
+        margin-left: 1%;
+    }
+    .icons {
+       flex-direction: column; 
+    }
+    .icons-electrical {
+        margin-left: 34%;
+    }
+    .icons-repair {
+        margin-left: 34%;
+    }
+    .icons-painting{
+        margin-left: 34%;
+    }
+    .about-us {
+        flex-direction: column;
+      
+    }
+    .frg{
+        width: 100%;
+        margin-left: -15%;
+    }
+    .billi, .img-size {
+        width: 100%;
+        margin-left: -15%;
+    }
+    .rg{
+        width: 100%;
+        margin-left: -15%;
+    }
+    .about-text{
+        margin-left: 27%;
+    }
+    .real h1{
+        margin-left: 25%;
+        width: 50%;
+    }
+    .real p{
+        margin-left: 25%;
+        width: 50%;
+    }
+  
+}
+@media (max-width: 600px) {
+    header{
+        background-position: 81.49% 50%;
+        min-height: 90%;
+ 
+    }
+    .header-text{
+        margin-top: 55%;
+        margin-left: 20%;
+        
+    }
+    .header-text h4{
+        font-size: 35px;
+    }
+    .header-text h1{
+        font-size: 60px;
+        
+    }
+    .header-rule{
+        width: 70%;
+    }
+    .service-text h1{
+        margin-top: 6%;
+        font-size: 35px;
+    }
+    .service-text p{
+        margin-top: 6%;
+    }
+    .service-text button{
+        margin-top: 6%;
+    }
+    .help-photo img{
+        margin-left: -23%;
+    }
+    .help-photo p{
+        margin-left: -12%;
+    }
+    .help-image h1{
+        margin-left: 35%;
+        width: 100%;
+    }
+    .help-image p{
+        width: 100%;
+        margin-left: 40%;
+    }
+    .help-image img{
+        margin-left: 34%;
+    }
+    .quality-text {
+        margin-left: -20%;
+    }
+    .quality-text h1{
+        font-size: 250%;
+    }
+    .painting h2{
+        margin-left: 20%;
+    }
+}
 /* mobile view */
 @media (max-width: 480px) {
 
@@ -250,18 +444,23 @@ text-align: center;
   }
     header {
         background-position: 81.49% 50%;
-        min-height: 90vh;
+        min-height: 90%;
  
     }
     .header-text{
         margin-left: 55px;
         margin-top: 450px;
+        padding-bottom: 35%;
+    }
+    .header-rule{
+        width: 70vw;
     }
     .header-text h4{
-        font-size: 36px;
+        font-size: 26px;
     }
     .header-text h1{
-        font-size: 58px;
+        font-size: 47px;
+        font-weight: 700;
     }
     .service {
         min-height: 60vh;
@@ -275,15 +474,16 @@ text-align: center;
      font-size: 15px;
     }
     .service-text h1{
-        font-size: 50px;
+        font-size: 25px;
+        font-weight: 700;
     }
     .help{
         flex-direction: column;
         overflow: hidden;
     }
     .help-photo img {
-        width: 300%;
-        margin-left: -197px;
+        width: 150%;
+        margin-left: -154px;
         min-height: 200px;
     }
     .help-photo p{
@@ -291,8 +491,8 @@ text-align: center;
         margin-left: -150px;
     }
     .help-image img{
-        width: 300%;
-        margin-left: 1px;
+        width: 150%;
+        margin-left: 50px;
     }
     .help-image h1{
         margin-left: 50px;
@@ -309,18 +509,18 @@ text-align: center;
         padding-left: 0%;
     }
     .quality img{
-        width: 350px;
-        margin-left: 45px;
+        width: 65%;
+        margin-left: 17%;
     }
     .quality-rule {
-      width: 80vw;
+      width: 70%;
       min-height: 1.5vh;
     }
     .quality-text{
         margin-left: 30px;
     }
     .quality-text h1{
-        font-size: 60px;
+        font-size: 37px;
     }
     .quality-text p{
         font-size: 20px;
@@ -330,11 +530,11 @@ text-align: center;
         margin-bottom: 30px;
     }
     .painting h2{
-        margin-left: 0%;
+        margin-left: 25%;
         font-size: 40px;
     }
     .icons-painting {
-        margin-left: 0%;
+        margin-left: 34%;
     }
     .icons{
         flex-direction: column;
@@ -343,33 +543,57 @@ text-align: center;
         flex-direction: column;
     }
     .about-img {
-        margin-left: 5%;
+        margin-left: 25%;
     }
     .about-text {
-        margin-left: 50px;
+        
         width: 30%;
     }
     .about-text h1{
-        font-size: 70px;
+        font-size: 55px;
+    }
+    .about-text h2{
+        font-size: 15px;
     }
    
     .rg{
         width: 302px;
     }.real p{
-        margin-left: 110px;
-        width: 50%;
+        margin-left: 15%;
+        width: 70%;
+        font-size: 20px;
     }
     .real h1{
         margin-left: 0;
         width: 100%;
-        
+        font-size: 30px;
     }
     .real button{
         display: flex;
-        margin-left: 150px;
+        margin-left: 35%;
         
     }
     .get{
         margin-bottom: 30px;
     }
+    .frg{
+        width: 120%;
+    }
+    .rg{
+        width: 120%;
+    }
+    .billi{
+        width: 120%;
+    }
+    .img-size{
+        width: 120%;
+    }
+    .call{
+        padding: 12px 35px;
+    }
+    .foot p {
+        width: 70%;
+        margin-left: 15%;
+    }
 }
+
