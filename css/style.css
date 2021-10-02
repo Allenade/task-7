@@ -553,9 +553,7 @@ font-size: 400%;
 }
 @media (max-width: 480px) {
    
-    body{
-        overflow: hidden;
-    }
+   
     header{
         background-position: 81.49% 50%;
     min-height: 90%;
