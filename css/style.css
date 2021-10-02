@@ -590,7 +590,7 @@ font-size: 400%;
     }
     .help{
         flex-direction: column;
-        overflow: hidden;
+      
     }
     .help-photo {
         margin-left: 10%;
